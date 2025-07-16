@@ -7,7 +7,12 @@ on:
   pull_request:
 
 permissions:
-  contents: read
+  repository-projects: write
+  actions: write
+  checks: write
+  contents: write
+  deployments: write
+  id-token: write
 
 jobs:
   call-workflow-passing-date:
