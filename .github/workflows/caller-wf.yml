@@ -16,7 +16,7 @@ permissions:
 
 jobs:
   call-workflow-passing-date:
-  uses: .github/workflows/automate-readme.yml@main
+  uses: AnuraktaNayak/terraform_anuGcp/.github/workflows/automate-readme.yml@main
   terraform:
     name: 'Terraform'
     runs-on: ubuntu-latest
